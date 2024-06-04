@@ -2,7 +2,7 @@ import re
 
 ary = []
 label = 1
-path = 'graph_new.json'
+path = 'graph.json'
 rule = r':(.*?),'
 fu_rule = r'"(.*?)"'
 outfile=open('edge_relation.txt', 'w', encoding='utf-8')
